@@ -1,4 +1,4 @@
-export const corsOptions = {
+ const corsOptions = {
   origin: 'https://chat-fronted.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
